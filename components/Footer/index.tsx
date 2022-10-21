@@ -14,7 +14,7 @@ export default function Footer({}: FooterProps) {
           <div className="flex flex-col items-center justify-evenly gap-y-6 border-t border-gray-200 py-12 px-4 text-sm leading-5 sm:px-6 md:py-14 lg:flex-row lg:justify-between lg:px-16">
             <div className="flex flex-col items-center gap-y-6 lg:flex-row lg:gap-10">
               <h1>
-                <span className="font-medium text-violet-700">Tapyt.tech</span>{' '}
+                <span className="font-medium text-violet-700">Tapyt.co</span>{' '}
                 © {new Date().getFullYear()}
               </h1>
               <div className="flex items-center">
@@ -30,7 +30,7 @@ export default function Footer({}: FooterProps) {
                   Developed by{' '}
                   <a
                     className="group duration-150 ease-in-out hover:text-violet-600"
-                    href="http://localhost:3000/github"
+                    href="http://tapyt.co/github"
                   >
                     <span className="font-medium text-violet-700">
                       Zaid Mukaddam
