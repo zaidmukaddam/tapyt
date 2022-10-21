@@ -1,0 +1,24 @@
+{
+  "name": "tapyt",
+  "short_name": "Tapyt: Handy URL shortener.",
+  "description": "Friendly URL shortener app for your daily using.",
+  "icons": [
+    {
+      "src": "/images/maskable/tapyt-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/maskable/tapyt-512x152.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable any"
+    }
+  ],
+  "theme_color": "#7e22ce",
+  "background_color": "#ebe7fe",
+  "display": "standalone",
+  "start_url": "/?source=pwa",
+  "scope": "/"
+}
